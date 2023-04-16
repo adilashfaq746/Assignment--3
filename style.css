@@ -1,0 +1,66 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+.search {
+  width: 300px;
+  padding: 10px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.fa-search {
+  font-size: 20px;
+  color: white;
+}
+
+/* Overlay */
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9);
+  overflow-y: auto;
+  transition: 0.5s;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 45px;
+  font-size: 60px;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}
